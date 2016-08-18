@@ -39,7 +39,7 @@ defmodule ExMachina.Mixfile do
       {:ecto, "~> 1.0.7", optional: true},
       {:ecto, "~> 1.0.7", only: [:dev, :test]},
       {:postgrex, ">= 0.0.0", only: [:test]},
-      {:poison, "~> 2.0.0", only: :test}
+      {:poison, "~> 1.0.0", only: :test}
     ]
   end
 
